@@ -42,7 +42,7 @@ Compress the target directory into a .zip file.
 Upload the compressed file to the NCP bucket using AWS S3 API.
 Remove the local backup file after upload.
 
-
+```
 #!/bin/bash
 
 # 'cron'에서 환경 변수 제한 방지
@@ -68,3 +68,4 @@ echo "Removing local backup archive..."
 rm -rf "$BACKUP_FILE"
 
 echo "Backup and upload process completed."
+```
