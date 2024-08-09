@@ -21,6 +21,7 @@ Configure the AWS CLI to work with NCP Object Storage by adding the endpoint URL
 
 ```bash
 aws configure
+```
 
 ### Installation
 
